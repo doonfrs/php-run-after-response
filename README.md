@@ -42,11 +42,3 @@ runAfterResponse(function(){
 ## How It Works
 The method leverages PHP's `register_shutdown_function` to perform operations after the output buffer has been flushed and the response has been sent to the user. This approach is ideal for executing tasks like sending emails or processing data without making the user wait.
 
-## Contributing
-Feel free to fork this repository and submit pull requests. Contributions are always welcome!
-
-## License
-This project is licensed under the MIT License.
-
----
-
