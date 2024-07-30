@@ -26,6 +26,9 @@ function runAfterResponse(callable $callback)
 echo 'hi';
 
 runAfterResponse(function(){
+  //send email
+  //send push notification
+  //do some heavy sql commands
   sleep(30); // Simulate a long operation, e.g., sending an email
 });
 ```
